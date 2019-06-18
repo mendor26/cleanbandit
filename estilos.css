@@ -25,6 +25,35 @@ section table{
 	border-color: #fd2d83;
 }
 
+footer{
+	background-color: #fd2d83;
+}
+
+.contenido-footer{
+width: 100%;
+height: 80px;
+}
+
+footer .contenido-footer .col1{
+	color: white;
+    padding-top: 34px;
+    width: 47%;
+    float: left;
+    padding-left: 30px;
+    font-size: 13px;
+}
+
+footer .contenido-footer .col2{
+	color: white;
+    padding-top: 28px;
+    width: 47%;
+    float: left;
+    text-align: right;
+    font-size: 23px;
+    padding-right: 30px;
+}
+
+
 .logo{
 	float: left;
 }
@@ -271,6 +300,7 @@ ul li:hover ul{display: block;}
 
 .galeria{
 	padding-top: 15px;
+	display: inline-block;
 }
 
 .dosfilast{
@@ -415,4 +445,14 @@ section .tienda .dosfilast .fila1t .f1col3t .boton_personalizado{
 
 section .tienda .dosfilast .fila1t .f1col4t .boton_personalizado{
 	margin-left: 20px;
+}
+
+.fa-instagram:before {
+    content: "\f16d";
+    padding-left: 10px;
+}
+
+.fa-twitter:before {
+    content: "\f099";
+    padding-left: 10px;
 }
