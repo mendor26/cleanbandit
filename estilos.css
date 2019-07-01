@@ -22,11 +22,25 @@ section{
 	flex-wrap: wrap;
 }
 
+section img{
+	width: 45%;
+	}
+
+section p{
+	width: 49%;
+    padding-left: 10px;
+	}
+
 section table{
 	border-color: #fd2d83;
 }
 
 h1{font-size:36px;
+	width: 100%;
+	}
+
+h3{
+	width: 100%;
 	}
 
 footer{
@@ -49,7 +63,7 @@ footer{
 	flex-wrap: wrap;
 }
 
-.tresimg .videos, .tresimg .novedades, .tresimg .radio{
+.tresimg img, .tresimg img, .tresimg img{
 	width: 32%;
 }
 
@@ -120,6 +134,14 @@ section{
 	justify-content: center;
 	padding-top: 0;
 }
+
+section img{
+	width: 100%;
+	}
+
+section p{
+	width: 100%;
+	}
 
 .logo{
 	padding-top: 20px;
@@ -214,7 +236,15 @@ footer .col2{
 	margin-top: 20px;
 	}
 
-.tresimg .videos, .tresimg .novedades, .tresimg .radio{
+.tresimg img{
+	width: 100%;
+}
+
+.tresimg img{
+	width: 100%;
+}
+
+.tresimg img{
 	width: 100%;
 }
 
