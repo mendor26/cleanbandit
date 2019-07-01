@@ -81,12 +81,14 @@ footer{
 	flex-wrap: wrap;
 	background-color: white;
 	border-radius: 20px;
-	width: 25%;}
+	width: 24%;
+    margin-right: 5px;}
 
 .productouno p, .productodos p, .productotres p, .productocuatro p{
 	font-size: 23px;
 	color: black;
 	padding-left: 20px;
+	width: 100%;
 }
 
 .boton_personalizado{
