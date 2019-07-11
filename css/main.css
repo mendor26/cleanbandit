@@ -3,3 +3,6 @@ body {
 
 header {
   width: 100%; }
+
+h1, h3, .logo, .video-full, .img-ppal img, .tresimg, .notas, .contenedortextos, .origenes {
+  width: 100%; }

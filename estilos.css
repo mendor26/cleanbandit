@@ -8,7 +8,6 @@ body{
 header{
 	display: flex;
 	flex-wrap: wrap;
-	width: 100%;
 }
 
 header nav ul li a{
@@ -42,13 +41,10 @@ section table{
 	border-color: #fd2d83;
 }
 
-h1{font-size:36px;
-	width: 100%;
+h1{
+	font-size:36px;
 	}
 
-h3{
-	width: 100%;
-	}
 
 footer{
 	background-color: #fd2d83;
@@ -56,20 +52,11 @@ footer{
 	flex-wrap: wrap;
 }
 
-.logo{
-    width: 100%;
-}
-
-.video-full {
-	width: 100%
-}
-
 .img-ppal img {
-	width: 100%;
 	padding-top: 25px;
 }
 
-.tresimg{width: 100%;
+.tresimg{
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -137,14 +124,11 @@ footer{
     padding-left: 10px;
 }
 
-.notas{width: 100%;
-}
-
 .contenedortextos{
 	display: flex;
 	flex-wrap: wrap;
-	width: 100%;
 	}
+
 .contenedortextos .texto p{
 font-size: 11px;
 	}
@@ -155,8 +139,7 @@ font-size: 32px;
 
 .origenes{
 	display: flex;
-	flex-wrap: wrap;
-	width: 100%}
+	flex-wrap: wrap;}
 
 
 /* Mobile Styles */
