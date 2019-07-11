@@ -1,13 +1,10 @@
+$color-fondoweb:#191919;
+$anchogeneral:100%;
 
-.header__navigation {
- background: #008cba;
- padding: 1rem 0;
- margin: 2rem 0;
- text-transform: uppercase;
+body{
+	background-color: $color-fondoweb;
 }
 
-.header__navigation--secondary {
- @extend .header__navigation;
- background: #dfe0e0;
+header{
+	width: $anchogeneral;
 }
-
