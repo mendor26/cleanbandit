@@ -4,5 +4,5 @@ body {
 header {
   width: 100%; }
 
-h1, h3, .logo, .video-full, .img-ppal img, .tresimg, .notas, .contenedortextos, .origenes {
+h1, h3, .imagencentral img, .imagennosotros img, .barralinks .galeria img, .cajaproducto img {
   width: 100%; }

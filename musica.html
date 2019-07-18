@@ -4,137 +4,152 @@
 <head>
     <meta charset="utf-8">
     <title>Clean Bandit</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link rel="stylesheet" type="text/css" href="estilos.css" />
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/6d11d7d7c5.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
 
 </head>
 
 <body>
-    <header>
+    <div class="container-fluid">
 
-        <div class="logo">
-            <a href="index.html"><img src="recursos/logo.png"></a>
+        <header>
+
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="index.html"><img src="recursos/logo.png"></a>
+                <button class="navbar-toggler hamburger" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link nav-linkcolor" href="nosotros.html">Nosotros<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle nav-linkcolor" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Música</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="musica.html">EP´s</a>
+                                <a class="dropdown-item" href="musica.html">Vinilos</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-linkcolor" href="tours.html">Tours</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-linkcolor" href="store.html">Store</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-linkcolor" href="contacto.html">Contacto</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+
+        </header>
+
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <h1>Discografía</h1>
+                <h3>Álbumes de estudio</h3>
+            </div>
+        </div>
+         <!-- FILA TABLA -->
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <table class="table fonttable">
+                    <thead>
+                        <tr>
+                            <th scope="col">Nombre</th>
+                            <th scope="col">Portada</th>
+                            <th scope="col">Informacion tecnica</th>
+                            <th scope="col">Año</th>
+                            <th scope="col">Lista de temas</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">New Eyes</th>
+                            <td><img src="recursos/new_eyes.jpg" style="width: 90%;"></td>
+                            <td> Lanzamiento:
+                                <br> 30 de mayo de 2014 Discográfica: Atlantic Records Formato: LP, CD y descarga digital
+                            </td>
+                            <td>2014</td>
+                            <td>
+                                <ol>
+                                    <li>Mozart's House</li>
+                                    <li>Extraordinary</li>
+                                    <li>Dust Clears</li>
+                                    <li>Rather Be</li>
+                                    <li>A+E</li>
+                                    <li>Come over</li>
+                                    <li>Cologne</li>
+                                    <li>Telephone Banking</li>
+                                    <li>Up Again</li>
+                                    <li>Heart on fire</li>
+                                    <li>New Eyes</li>
+                                    <li>Birch</li>
+                                    <li>Outro Movement III</li>
+                                </ol>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">What is love?</th>
+                            <td><img src="recursos/whatislove.jpg" style="width: 90%;"></td>
+                            <td> Lanzamiento:
+                                <br> 30 de noviembre de 2018 Discográfica: Atlantic Records Formato: LP, CD y descarga digital</td>
+                            <td>2018</td>
+                            <td>
+                                <ol>
+                                    <li>Symphony</li>
+                                    <li>Baby</li>
+                                    <li>Solo</li>
+                                    <li>Rockabye</li>
+                                    <li>Mama</li>
+                                    <li>Should´ve known better </li>
+                                    <li>Out at night</li>
+                                    <li>Last Goodbye</li>
+                                    <li>We were just kids</li>
+                                    <li>Nowhere</li>
+                                    <li>I miss you</li>
+                                    <li>In us i believe</li>
+                                    <li>24 hours</li>
+                                    <li>Playboy style</li>
+                                    <li>Beautiful</li>
+                                    <li>Tears</li>
+                                </ol>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
 
-        <nav>
-            <ul>
-                <li><a href="nosotros.html">Nosotros</a></li>
+        <!-- FOOTER -->
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 copy">
+                        Copyright ©2019 Todos los derechos reservados
+                    </div>
 
-                <li><a href="musica.html">Música</a>
-                    <ul>
-                        <li>Discografía</li>
-                        <li>EP´s</li>
-                        <li>Vinilos</li>
-                    </ul>
-                </li>
-
-                <li><a href="tours.html">Tours</a></li>
-
-                <li><a href="store.html">Store</a></li>
-
-                <li><a href="contacto.html">Contacto</a></li>
-                </a>
-            </ul>
-        </nav>
-
-    </header>
-
-    <section>
-        <h1>Discografía</h1>
-        <h3>Álbumes de estudio</h3>
-            <table border="2" cellpadding="10" width="100%">
-                <tr style="background-color: #fd2d83;">
-                    <td>Nombre</td>
-                    <td>Portada</td>
-                    <td>Información técnica</td>
-                    <td>Año</td>
-                    <td>Lista de temas</td>
-                </tr>
-                <tr>
-                    <td style="text-align: center;"><strong>New Eyes</strong></td>
-                    <td><img src="recursos/new_eyes.jpg"></td>
-                    <td><strong>Lanzamiento:</strong>
-                        <br> 30 de mayo de 2014
-                        <br>
-                        <br>
-                        <strong>Discográfica:</strong>
-                        <br> <i>Atlantic Records</i>
-                        <br>
-                        <br>
-                        <strong>Formato:</strong>
-                        <br> LP, CD y descarga digital</td>
-                    <td>2014</td>
-                    <td>
-                        <ol>
-                            <li>Mozart's House</li>
-                            <li>Extraordinary</li>
-                            <li>Dust Clears</li>
-                            <li>Rather Be</li>
-                            <li>A+E</li>
-                            <li>Come over</li>
-                            <li>Cologne</li>
-                            <li>Telephone Banking</li>
-                            <li>Up Again</li>
-                            <li>Heart on fire</li>
-                            <li>New Eyes</li>
-                            <li>Birch</li>
-                            <li>Outro Movement III</li>
-                        </ol>
-                    </td>
-                </tr>
-
-                <tr>
-                    <td style="text-align: center;"><strong>What is love?</strong></td>
-                    <td><img src="recursos/whatislove.jpg"></td>
-                    <td><strong>Lanzamiento:</strong>
-                        <br> 30 de noviembre de 2018
-                        <br>
-                        <br>
-                        <strong>Discográfica:</strong>
-                        <br> <i>Atlantic Records</i>
-                        <br>
-                        <br>
-                        <strong>Formato:</strong>
-                        <br> LP, CD y descarga digital</td>
-                    <td>2018</td>
-                    <td>
-                        <ol>
-                            <li>Symphony</li>
-                            <li>Baby</li>
-                            <li>Solo</li>
-                            <li>Rockabye</li>
-                            <li>Mama</li>
-                            <li>Should´ve known better </li>
-                            <li>Out at night</li>
-                            <li>Last Goodbye</li>
-                            <li>We were just kids</li>
-                            <li>Nowhere</li>
-                            <li>I miss you</li>
-                            <li>In us i believe</li>
-                            <li>24 hours</li>
-                            <li>Playboy style</li>
-                            <li>Beautiful</li>
-                            <li>Tears</li>
-                        </ol>
-                    </td>
-                </tr>
-            </table>
-
-    </section>
-
-    <footer>
-            <div class="col1">Copyright ©2019 Todos los derechos reservados</div>
-            <div class="col2">
-                <a href="https://www.facebook.com/cleanbandit/"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://twitter.com/cleanbandit?lang=es"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.instagram.com/cleanbandit/?hl=es-la"><i class="fab fa-instagram"></i></a>
+                    <div class="col-md-6 col-sm-12 redes">
+                        <a href="https://www.facebook.com/cleanbandit/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/cleanbandit?lang=es"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/cleanbandit/?hl=es-la"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
             </div>
-    </footer>
-
+        </footer>
 </body>
 
 </html>

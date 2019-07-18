@@ -4,87 +4,124 @@
 <head>
     <meta charset="utf-8">
     <title>Clean Bandit</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link rel="stylesheet" type="text/css" href="estilos.css" />
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/6d11d7d7c5.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
 
 </head>
 
 <body>
-    <header>
+    <div class="container-fluid">
 
-        <div class="logo">
-            <a href="index.html"><img src="recursos/logo.png"></a>
+        <header>
+
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="index.html"><img src="recursos/logo.png"></a>
+                <button class="navbar-toggler hamburger" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link nav-linkcolor" href="nosotros.html">Nosotros<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle nav-linkcolor" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Música</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="musica.html">EP´s</a>
+                                <a class="dropdown-item" href="musica.html">Vinilos</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-linkcolor" href="tours.html">Tours</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-linkcolor" href="store.html">Store</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-linkcolor" href="contacto.html">Contacto</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+
+        </header>
+
+        <div class="row">
+            <!-- COL TITULO -->
+            <div class="col-md-12 col-sm-12">
+                <h1>Store</h1>
+            </div>
+        </div>
+        <!-- FILA PRODUCTOS -->
+        <div class="row filaproductos">
+
+            <div class="col-md-2 col-sm-12 cajaproducto">
+                <img src="recursos/rockabye_red_babygrow.png">
+                <h3>RED <br>ROCKABYE<br> BABYGROW</h3>
+                <p>£12.99</p>
+                <button type="button" class="btn btn-info botoncomprar"><a href="https://eurostore.warnermusic.com/uk/artists/clean-bandit/rockabye-red-babygrow-s-3-6.html">COMPRAR</a></button>
+            </div>
+
+            <div class="col-md-2 col-sm-12 cajaproducto">
+                <img src="recursos/18cb_vinyl_tee_bundle_1.png">
+                <h3>WHAT IS LOVE? VINYL AND EXCLUSIVE ALBUM T-SHIRT</h3>
+                <p>£24.99</p>
+                <button type="button" class="btn btn-info botoncomprar"><a href="https://eurostore.warnermusic.com/uk/artists/clean-bandit/rockabye-red-babygrow-s-3-6.html">COMPRAR</a></button>
+            </div>
+
+            <div class="col-md-2 col-sm-12 cajaproducto">
+                <img src="recursos/18cb_what_is_love_deluxe_cd_digipack_embroidered_tee.png">
+                <h3>WHAT IS LOVE? DELUXE CD EXCLUSIVE ALBUM T-SHIRT</h3>
+                <p>£19.99</p>
+                <button type="button" class="btn btn-info botoncomprar"><a href="https://eurostore.warnermusic.com/uk/artists/clean-bandit/rockabye-red-babygrow-s-3-6.html">COMPRAR</a></button>
+            </div>
+
+            <div class="col-md-2 col-sm-12 cajaproducto">
+                <img src="recursos/18cb_what_is_love_standard_cd_jewel_case_clear_embroidered_tee_.png">
+                <h3>WHAT IS LOVE? DELUXE CD EXCLUSIVE ALBUM T-SHIRT</h3>
+                <p>£20.99</p>
+                <button type="button" class="btn btn-info botoncomprar"><a href="https://eurostore.warnermusic.com/uk/artists/clean-bandit/rockabye-red-babygrow-s-3-6.html">COMPRAR</a></button>
+            </div>
+
+            <div class="col-md-2 col-sm-12 cajaproducto">
+                <img src="recursos/18cb_what_is_love_standard_cd_jewel_case_clear_embroidered_tee_.png">
+                <h3>WHAT IS LOVE? DELUXE CD EXCLUSIVE ALBUM T-SHIRT</h3>
+                <p>£20.99</p>
+                <button type="button" class="btn btn-info botoncomprar"><a href="https://eurostore.warnermusic.com/uk/artists/clean-bandit/rockabye-red-babygrow-s-3-6.html">COMPRAR</a></button>
+            </div>
         </div>
 
-        <nav>
-            <ul>
-                <li><a href="nosotros.html">Nosotros</a></li>
+        </section>
 
-                <li><a href="musica.html">Música</a>
-                    <ul>
-                        <li>Discografía</li>
-                        <li>EP´s</li>
-                        <li>Vinilos</li>
-                    </ul>
-                </li>
+        <!-- FOOTER -->
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 copy">
+                        Copyright ©2019 Todos los derechos reservados
+                    </div>
 
-                <li><a href="tours.html">Tours</a></li>
-
-                <li><a href="store.html">Store</a></li>
-
-                <li><a href="contacto.html">Contacto</a></li>
-                </a>
-            </ul>
-        </nav>
-
-    </header>
-
-    <section>
-        <h1>Store</h1>
-                <div class="productouno">
-                    <img src="recursos/rockabye_red_babygrow.png" style="width: 100%;">
-                    <h3>ROCKABYE RED BABYGROW</h3>
-                    <p>£12.99</p>
-                    <a class="boton_personalizado" href="https://eurostore.warnermusic.com/uk/artists/clean-bandit/rockabye-red-babygrow-s-3-6.html">COMPRAR</a>
-                </div>
-
-                <div class="productodos">
-                    <img src="recursos/18cb_vinyl_tee_bundle_1.png" style="width: 100%;">
-                    <h3>WHAT IS LOVE? VINYL AND EXCLUSIVE ALBUM T-SHIRT</h3>
-                    <p>£24.99</p>
-                    <a class="boton_personalizado" href="https://eurostore.warnermusic.com/uk/artists/clean-bandit/rockabye-red-babygrow-s-3-6.html">COMPRAR</a>
-                </div>
-
-                <div class="productotres">
-                    <img src="recursos/18cb_what_is_love_deluxe_cd_digipack_embroidered_tee.png" style="width: 100%;">
-                    <h3>WHAT IS LOVE? DELUXE CD EXCLUSIVE ALBUM T-SHIRT</h3>
-                    <p>£19.99</p>
-                    <a class="boton_personalizado" href="https://eurostore.warnermusic.com/uk/artists/clean-bandit/rockabye-red-babygrow-s-3-6.html">COMPRAR</a>
-                </div>
-
-                <div class="productocuatro">
-                    <img src="recursos/18cb_what_is_love_standard_cd_jewel_case_clear_embroidered_tee_.png" style="width: 100%;">
-                    <h3>WHAT IS LOVE? DELUXE CD EXCLUSIVE ALBUM T-SHIRT</h3>
-                    <p>£20.99</p>
-                    <a class="boton_personalizado" href="https://eurostore.warnermusic.com/uk/artists/clean-bandit/rockabye-red-babygrow-s-3-6.html">COMPRAR</a>
+                    <div class="col-md-6 col-sm-12 redes">
+                        <a href="https://www.facebook.com/cleanbandit/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/cleanbandit?lang=es"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/cleanbandit/?hl=es-la"><i class="fab fa-instagram"></i></a>
+                    </div>
                 </div>
             </div>
+        </footer>
 
-    </section>
-
-    <footer>
-            <div class="col1">Copyright ©2019 Todos los derechos reservados</div>
-            <div class="col2">
-                <a href="https://www.facebook.com/cleanbandit/"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://twitter.com/cleanbandit?lang=es"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.instagram.com/cleanbandit/?hl=es-la"><i class="fab fa-instagram"></i></a>
-            </div>
-    </footer>
-
+    </div>
 </body>
 
 </html>
